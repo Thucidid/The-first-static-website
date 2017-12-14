@@ -1,0 +1,86 @@
+*
+#page {width:100%}
+#header {width: 100%;
+		height: 100px;}
+#logo {width:200px;
+		height: 50px;
+		float: left}
+#go		{width: 50px;
+		height: 50px;
+		float: right}
+#search {width: 200px;
+		height: 20px;
+		float: right;
+		border-radius: 8px;}
+
+#log_in {width: 200px;
+		 height:19px;
+		 float:right;}
+.cleaner{clear:both;}
+#okvir {width: 100%;
+		border: 1px solid #b20000;
+		margin: Opx auto}
+#meni {width: 80%;
+	  height: 51px;
+	   text-align: center;
+	   }
+#meni ul li { margin:0px auto;
+		height:50%;
+		padding:1% 2% 2% 1%;
+		list-style-type: disc;
+		display: inline;
+		float: left;}
+#meni ul li a {text-decoration: none;
+			text-transform: uppercase;
+			text-align:center;
+			display: block;
+			color: #eafbfb}
+#meni li a:hover {
+    background-color: blue;
+	color: blue;
+}
+
+
+#okvir {background-image: url(2.png);
+		background-repeat: repeat-x;}
+
+#middle{width:1024px;
+text-align: justify;}
+
+#left{width:230px;
+float:left;
+border:1px solid #000;
+border-radius:8px;
+box-shadow: 10px ;
+margin: 10px;
+padding: 10px;
+position:relative
+}
+
+
+#block {margin:10px;
+		width:700px;
+		border:1px solid #000;
+		border-radius:10px;
+		box-shadow:10px 10px 5px white;
+		float:left;
+		padding: 10px;
+		position:relative
+		}
+		
+.box {width:210px;
+	height: 210px;
+	background: white;
+	border-radius:9px;
+	padding:10px;
+	border: 1px solid;
+	float: left}
+	
+#image {width:80%;
+	   height:80%;
+		margin:3px;
+		border-radius: 10px;
+		float:left
+}
+#text{float: left;}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Crusaders </title>
+		<meta charset="UTF-8"/>
+		<link rel="shortcut icon" href="shield.ico"/>
+	</head>
+	<body bgcolor="#F1E7CD"/>
+		<form action="" method="post" id="webform" name="webform">
+			<a href="index.html"><img src="SHC.gif" height="150%"/></a>
+			<fieldset>
+				<legend>Personal informations</legend>
+				<table>
+					<th colspan="2" align="center">Registration</th>
+					<tr>
+						<td>First Name: </td>
+						<td> <input type="text" name="tbname" id="tbname"/> </td>
+					</tr>
+					<tr>
+						<td>Last Name: </td>
+						<td> <input type="text" name="tblastname" id="tblastname"/> </td>
+					</tr>
+					<tr>
+						<td>Birthday: </td>
+						<td align="left">
+							<select name="ddlDay" id="ddlDay">
+								<option value="0">Day</option>
+								<option value="1">01</option>
+								<option value="2">02</option>
+								<option value="3">03</option>
+								<option value="4">04</option>
+								<option value="5">05</option>
+								<option value="6">06</option>
+								<option value="7">07</option>
+								<option value="8">08</option>
+								<option value="9">09</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select> 
+							<select name="ddlMonth" id="ddlMonth">
+								<option value="0">Month</option>
+								<option value="1">January</option>
+								<option value="2">February</option>
+								<option value="3">March</option>
+								<option value="4">April</option>
+								<option value="5">May</option>
+								<option value="6">June</option>
+								<option value="7">July</option>
+								<option value="8">August</option>
+								<option value="9">September</option>
+								<option value="10">October</option>
+								<option value="11">November</option>
+								<option value="12">December</option>
+							</select>
+							<input type="text" name="tbYear" id="Year" placeholder="Year" maxlength="4px" size="4px"/>
+							<!--<select name="ddlYear" id="ddlYear">
+								<option value="0">Year</option>
+								<option value="1">1930/35</option>
+								<option value="2">1936/40</option>
+								<option value="3">1941/45</option>
+								<option value="4">1946/50</option>
+								<option value="5">1951/60</option>
+								<option value="6">1961/65</option>
+								<option value="7">1966/70</option>
+								<option value="8">1971/75</option>
+								<option value="9">1976/80</option>
+								<option value="10">1081/85</option>
+								<option value="11">1986/90</option>
+								<option value="12">1991/95</option>
+								<option value="11">1996/00</option>
+								<option value="12">2001/05</option>
+								<option value="13">2006/10</option>
+							</select>-->
+						</td>
+					</tr>
+					<tr>
+						<td>Gender:</td>
+						<td> <input type="radio" name="gender" id="male"/> <label for="male">Male</label> <br/>
+						<input type="radio" name="gender" id="female"/> <label for="female">Female</label>  </td>
+					</tr><br/>
+					<tr>
+						<td>Country:</td>
+						<td><input type="text" name="tbcountry" id="tbcountry"></td>
+					</tr>
+					<tr>
+						<td>Profile Picture:</td>
+						<td><input type="file" id="tbProfilePic" name="tbProfilePic"/></td>
+					</tr>
+					<tr>
+						<td>Choose your side:</td>
+						<td> 
+							<input type="radio" name="side" id="crusader"/> <label for="crusader">Crusader</label>
+							<input type="radio" name="side" id="saracen"/> <label for="saracen">Saracen</label>  
+							<input type="radio" name="side" id="byzantian"/> <label for="byzantian">Byzantian</label>  
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>Account information</legend>
+				<table>
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="tbEmail" id="tbEmail"/></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input type="password" name="tbPassword" id="Password"/></td>
+					</tr>
+					<tr>
+						<td>Re-enter Password:</td>
+						<td><input type="password" name="tbPassword" id="Password"/></td>
+					</tr>
+					<tr>
+						<td><input type="submit" name="btnConfirm" id="btnConfirm" value="Sign In"/></td>
+						<td><input type="reset" name="btnCancel" id="btnCancel" value="Cancel"/></td>
+					</tr>
+				</table>
+	</body>
+</html>
